@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JSON - Parse and Stringify</title>
+    <script type="text/javascript" src="script/parse_stringify.js"></script>
+    <link type="text/css" rel="stylesheet" href="style/parse_stringify.scss" />
+</head>
+<body>
+    <h2>JSON - Parse and Stringify</h2>
+
+    <p>
+        <b>Note:</b> Only valid JSON strings are allowed in the text field,
+        <br />and the Stringify button only works with the default JS Object
+    </p>
+    <label>Input string </label>
+    <input id="input" type="text" size="50" />
+    <input type="button" value="Parse" onclick="Parse()" />
+    <br /><br />
+    <input type="button" value="Default JS Object" onclick="DefaultJSObj()" />
+    <input type="button" value="Stringify" onclick="Stringify()" />
+    <p id="defaultJSObj">
+        <b>Default: </b>{name:"Brad", age:36, occupation:"Developer"}
+    </p>
+    <p id="output" />
+    <p id="stringified" />
+</body>
+</html>
