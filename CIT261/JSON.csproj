@@ -32,14 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="style\parse_stringify.scss" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="parse_stringify.html" />
-    <Content Include="script\parse_stringify.js" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
